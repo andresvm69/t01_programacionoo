@@ -1,7 +1,7 @@
 package t01_programacionoo;
 
-public class Paciente extends Persona {
-	
+public class Medico extends Persona {
+
 	private String nombre;
 	private String apellido;
 	private String genero;
