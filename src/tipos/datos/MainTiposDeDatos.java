@@ -14,6 +14,8 @@ public class MainTiposDeDatos {
 		char opcionMenu = 'C';
 		//no usar carecteres especiales
 		boolean casado = true;
+		
 	}
 
 }
+
