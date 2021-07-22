@@ -15,6 +15,7 @@ public class MainTiposDeDatos {
 		//no usar carecteres especiales
 		boolean casado = true;
 		
+	
 	}
 
 }
