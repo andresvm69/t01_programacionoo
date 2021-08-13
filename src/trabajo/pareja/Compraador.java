@@ -8,7 +8,6 @@ public class Compraador {
 		acreditar1.acreditar("Credito aceptado" , 10);
 		
 
-		
 
 	}
 

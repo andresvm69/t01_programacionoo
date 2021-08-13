@@ -6,6 +6,7 @@ public class Banca {
 	public String movil;
 	
 	public Banca () {
+		
 	
 	}
 		public void validar (String datosAimprimir, int letra) {

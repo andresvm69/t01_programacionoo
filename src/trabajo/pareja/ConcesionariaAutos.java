@@ -10,7 +10,6 @@ public class ConcesionariaAutos {
 	public String nombre;
 	public String tipo;
 	
-	
 		public ConcesionariaAutos () {
 		
 	}
