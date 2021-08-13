@@ -8,6 +8,7 @@ public class Cliente {
 		Banca validar1 = new Banca (); //instanciar la clase
 		
 		validar1.validar("Registro exitoso|Banca web| #246123", 12);
+		
 	}
 
 }
