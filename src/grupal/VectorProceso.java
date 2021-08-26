@@ -50,6 +50,8 @@ public class VectorProceso {
     int n = X.length;
     for (int i=0; i<n; ++i) {
     System.out.print(X[i] + " | ");
+    
+    
     }
     }
 }
