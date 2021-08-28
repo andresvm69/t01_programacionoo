@@ -1,125 +1,123 @@
 package ejercicios.ajedrez;
 
-public class Main extends Pieza{
-
-	private static final Object[] Pieza = null;
+public class Main {
 
 	public void ajedrez() {
 		
 //PEON
-		Pieza peon1 =new Pieza();
+		Peon peon1 =new Peon();
 		peon1.setColor("Blanco");
 		
-		Pieza peon2 =new Pieza();
+		Peon peon2 =new Peon();
 		peon2.setColor("Blanco");
 		
-		Pieza peon3 =new Pieza();
+		Peon peon3 =new Peon();
 		peon3.setColor("Blanco");
 		
-		Pieza peon4 =new Pieza();
+		Peon peon4 =new Peon();
 		peon4.setColor("Blanco");
 		
-		Pieza peon5 =new Pieza();
+		Peon peon5 =new Peon();
 		peon5.setColor("Blanco");
 		
-		Pieza peon6 =new Pieza();
+		Peon peon6 =new Peon();
 		peon6.setColor("Blanco");
 		
-		Pieza peon7 =new Pieza();
+		Peon peon7 =new Peon();
 		peon7.setColor("Blanco");
 		
-		Pieza peon8 =new Pieza();
+		Peon peon8 =new Peon();
 		peon8.setColor("Blanco");
 		
 		
 	//NEGROS
 		
-		Pieza peon1b =new Pieza();
+		Peon peon1b =new Peon();
 		peon1b.setColor("Negro");
 		
-		Pieza peon2b =new Pieza();
+		Peon peon2b =new Peon();
 		peon2b.setColor("Negro");
 		
-		Pieza peon3b =new Pieza();
+		Peon peon3b =new Peon();
 		peon3b.setColor("Negro");
 		
-		Pieza peon4b =new Pieza();
+		Peon peon4b =new Peon();
 		peon4b.setColor("Negro");
 		
-		Pieza peon5b =new Pieza();
+		Peon peon5b =new Peon();
 		peon5b.setColor("Negro");
 		
-		Pieza peon6b =new Pieza();
+		Peon peon6b =new Peon();
 		peon6.setColor("Negro");
 		
-		Pieza peon7b =new Pieza();
+		Peon peon7b =new Peon();
 		peon7b.setColor("Negro");
 		
-		Pieza peon8b =new Pieza();
+		Peon peon8b =new Peon();
 		peon8b.setColor("Negro");
 
 //AlFIL
-		Pieza alfil1 = new Pieza();
+		Alfil alfil1 = new Alfil();
 		alfil1.setColor("Blanco");
 		
-		Pieza alfil2 = new Pieza();
+		Alfil alfil2 = new Alfil();
 		alfil2.setColor("Blanco");
 		
 		//NEGROS
 		
-		Pieza alfil1b = new Pieza();
+		Alfil alfil1b = new Alfil();
 		alfil1b.setColor("Negro");
 		
-		Pieza alfil2b = new Pieza();
+		Alfil alfil2b = new Alfil();
 		alfil2b.setColor("Negro");
 		
 //CABALLOS
-		Pieza caballo1 = new Pieza();
+		Caballo caballo1 = new Caballo();
 		caballo1.setColor("Blanco");
 		
-		Pieza caballo2 = new Pieza();
+		Caballo caballo2 = new Caballo();
 		caballo2.setColor("Blanco");
 		
 		//NEGROS
 		
-		Pieza caballo1b = new Pieza();
+		Caballo caballo1b = new Caballo();
 		caballo1b.setColor("Negro");
 		
-		Pieza caballo2b = new Pieza();
+		Caballo caballo2b = new Caballo();
 		caballo2b.setColor("Negro");
 		
 //REINA
-		Pieza reina1 = new Pieza();
+		Reina reina1 = new Reina();
 		reina1.setColor("Blanco");
 		
 		//Negro
-		Pieza reina1b = new Pieza();
+		Reina reina1b = new Reina();
 		reina1b.setColor("Negro");
 		
 		
 //TORRE
 		
-		Pieza torre1=new Pieza();
+		Torre torre1=new Torre();
 		torre1.setColor("Blanco");
 		
-		Pieza torre2=new Pieza();
+		Torre torre2=new Torre();
 		torre2.setColor("Blanco");
 		
 		//Negros
 		
-		Pieza torre1b=new Pieza();
+		Torre torre1b=new Torre();
 		torre1b.setColor("Negro");
 		
-		Pieza torre2b=new Pieza();
+		Torre torre2b=new Torre();
 		torre2b.setColor("Negro");
 		
 //REY
-		Pieza rey1=new Pieza();
+		Rey rey1=new Rey();
 		rey1.setColor("Blanco");
 		
 		//Negro
 		
-		Pieza rey1b=new Pieza();
+		Rey rey1b=new Rey();
 		rey1b.setColor("Blanco");
 		
 		Pieza tablaAjedrez[][] = new Pieza[8][8];
@@ -158,7 +156,7 @@ public class Main extends Pieza{
 		
 		
 
-		System.out.println("Ajedrez");
+		System.out.println("AJEDREZ");
 
 		System.out.println(" ");
 

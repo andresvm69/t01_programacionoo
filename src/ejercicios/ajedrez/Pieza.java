@@ -1,6 +1,6 @@
 package ejercicios.ajedrez;
 
-public class Pieza {
+public class abstract Pieza {
 
 	private String color;
 	
