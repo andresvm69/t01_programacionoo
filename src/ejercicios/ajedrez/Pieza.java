@@ -8,7 +8,6 @@ public class abstract Pieza {
 		return color;
 	}
 	
-	
 	public void setColor(String color) {
 		this.color =color;
 	}

@@ -4,7 +4,7 @@ public class Main {
 
 	public void ajedrez() {
 		
-//PEON
+//PEON     
 		Peon peon1 =new Peon();
 		peon1.setColor("Blanco");
 		
