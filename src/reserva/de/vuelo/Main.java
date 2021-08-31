@@ -121,16 +121,16 @@ public class Main {
 		listaPasajeros[1][4]= pasajerovip10;
 		
 		PasajerosEconomicos listaPasajeros1[][] = new PasajerosEconomicos[4][5];
-		listaPasajeros1[0][0]= pasajeroeconomico1;
-		listaPasajeros1[0][1]= pasajeroeconomico2;
-		listaPasajeros1[0][2]= pasajeroeconomico3;
-		listaPasajeros1[0][3]= pasajeroeconomico4;
-		listaPasajeros1[0][4]= pasajeroeconomico5;
-		listaPasajeros1[1][0]= pasajeroeconomico6;
-		listaPasajeros1[1][1]= pasajeroeconomico7;
-		listaPasajeros1[1][2]= pasajeroeconomico8;
-		listaPasajeros1[1][3]= pasajeroeconomico9;
-		listaPasajeros1[1][4]= pasajeroeconomico10;
+		listaPasajeros1[3][0]= pasajeroeconomico1;
+		listaPasajeros1[3][1]= pasajeroeconomico2;
+		listaPasajeros1[3][2]= pasajeroeconomico3;
+		listaPasajeros1[3][3]= pasajeroeconomico4;
+		listaPasajeros1[3][4]= pasajeroeconomico5;
+		listaPasajeros1[4][0]= pasajeroeconomico6;
+		listaPasajeros1[4][1]= pasajeroeconomico7;
+		listaPasajeros1[4][2]= pasajeroeconomico8;
+		listaPasajeros1[4][3]= pasajeroeconomico9;
+		listaPasajeros1[4][4]= pasajeroeconomico10;
 		
 		
 		
