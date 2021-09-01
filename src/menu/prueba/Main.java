@@ -18,18 +18,19 @@ public class Main {
 		System.out.println("2. Cambiar de clave");
 		System.out.println("3. Bloquear cuenta");
 		System.out.println("4. Salir");
-		System.out.println(" Elija su opcion");
+		System.out.println(" ELIJA UNA OPCION");
 		opcion = teclado.nextInt();
+		System.out.println(" ");
 		
 		if (opcion == 1) {
 			System.out.print("Ingrese el valor a retirar: ");
 			int Valor = teclado.nextInt();
-			System.out.println("El valor a retirar es: " + Valor);
+			System.out.println("Su valor a retirar es: " + Valor);
 			System.out.println(" ");
 
 		} else if (opcion == 2) {
 			System.out.println("Ingrese nueva clave: ");
-			String Contra = teclado.next();
+			String Clave = teclado.next();
 			System.out.println("Su clave ha sido cambiada con exito.");
 			System.out.println(" ");
 
@@ -42,6 +43,7 @@ public class Main {
 			System.out.println(" ");}
 		
 		} while (opcion != 4);
+		System.out.println("GRACIAS POR PREFERIRNOS ");
 
 	}
 
